@@ -1,0 +1,168 @@
+body {
+    background-color: lightseagreen;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+p {
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+button {
+    background-color: white;
+    color: lightseagreen;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+button:hover {
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+    display:flex;
+    justify-content: right;
+}
+nav a {
+    color: lightseagreen;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    color:black;
+    border-bottom: 2px solid white;
+}
+
+img.profile-pic{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    color: lightseagreen;
+    margin: 0;
+}
+footer .social-icons {
+    margin-top: 10px;
+}
+footer .social-icons a {
+    color: lightseagreen;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer .social-icons a:hover {
+    color: black;
+}
+@media (max-width: 768px) {
+    .home-image {
+        width: 200px;
+        height: 300px;
+    }
+}
+article {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+article h2 {
+    color: lightseagreen;
+}
+article p {
+    color: black;
+    font-size: 16px;
+}
+article a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+article a:hover {
+    text-decoration: underline;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.skills-grid ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-grid li {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.contact-container h1 {
+    color: lightseagreen;
+}
+.contact-container p {
+    color: black;
+    font-size: 16px;
+}
+.contact-container a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+.contact-container a:hover {
+    text-decoration: underline;
+}
+textarea, input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+}
+button[type="send"] {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button[type="send"]:hover {
+    background-color: white;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+}
+@keyframes fadeslide {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+input, textarea,button {
+    transition: all;
+}
